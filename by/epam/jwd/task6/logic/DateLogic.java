@@ -14,7 +14,7 @@ public static int calculateCurrentMinute(int currentSecond)
 {
     return (currentSecond / SECONDSINMINUTE) % SECONDSINMINUTE;
 }
-public static void determineFullData(int second)
+public static void determineFullDate(int second)
 {
     second %= SECONDSINDAY;
     int currentHour = calculateCurrentHour(second);
