@@ -12,7 +12,7 @@ public class Run {
         double inscribedSquareArea = CalculationLogic.calculateInscribedSquareArea(squareSide);
         System.out.println("Площадь квадрата,вписанного в окружность,которая в свою очередь вписана в квадрат:"
                 + inscribedSquareArea);
-        double areasRatio = CalculationLogic.calculateAreasRatio(inscribedSquareArea);
+        double areasRatio = CalculationLogic.calculateAreasRatio(squareSide);
         System.out.println("Площадь вписанного квадрата меньше площади исходного в " + areasRatio + " раз (раза)");
     }
 }
