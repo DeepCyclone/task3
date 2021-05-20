@@ -8,11 +8,11 @@ public class Run {
     {
         ScannerLogic sc = new ScannerLogic();
         System.out.println("Введите левую границу:");
-        int a = sc.inputPositiveInteger();
+        double a = sc.inputDouble();
         System.out.println("Введите правую границу:");
-        int b = sc.inputPositiveInteger();
+        double b = sc.inputDouble();
         System.out.println("Введите шаг:");
-        int h = sc.inputPositiveInteger();
+        double h = sc.inputDouble();
         CalculationLogic.evaluateTangentBySteps(a,b,h);
     }
 }
